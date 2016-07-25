@@ -59,6 +59,7 @@ public class MainActivity extends Activity {
 
         for (ListView lv : al) {
 
+
             MyScrollListener myScrollListener = new MyScrollListener();
             lv.setOnScrollListener(myScrollListener);
         }
